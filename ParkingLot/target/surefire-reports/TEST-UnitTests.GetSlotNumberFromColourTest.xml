@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="UnitTests.GetSlotNumberFromColourTest" time="0.033" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/akshanshohm/Downloads/ParkingLot/target/test-classes:/Users/akshanshohm/Downloads/ParkingLot/target/classes:/Users/akshanshohm/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/akshanshohm/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/20.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/akshanshohm/Downloads/ParkingLot/target/surefire/surefirebooter-20230802231609402_3.jar /Users/akshanshohm/Downloads/ParkingLot/target/surefire 2023-08-02T23-16-09_359-jvmRun1 surefire-20230802231609402_1tmp surefire_0-20230802231609402_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/akshanshohm/Downloads/ParkingLot/target/test-classes:/Users/akshanshohm/Downloads/ParkingLot/target/classes:/Users/akshanshohm/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/akshanshohm/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/akshanshohm"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/20.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/akshanshohm/Downloads/ParkingLot"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/akshanshohm/Downloads/ParkingLot/target/surefire/surefirebooter-20230802231609402_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="20.0.1"/>
+    <property name="user.name" value="akshanshohm"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/akshanshohm/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/sg/fgnxl5tn2wxdjmn85sj9_sbr0000gn/T/"/>
+    <property name="java.version" value="20.0.1"/>
+    <property name="user.dir" value="/Users/akshanshohm/Downloads/ParkingLot"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/akshanshohm/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="20.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="test_NoCarParked" classname="UnitTests.GetSlotNumberFromColourTest" time="0.003">
+    <system-out><![CDATA[Slots Created with size 10
+]]></system-out>
+  </testcase>
+  <testcase name="test_CarParkedWithSameColour" classname="UnitTests.GetSlotNumberFromColourTest" time="0.009">
+    <system-out><![CDATA[Slots Created with size 10
+Parked  Vehicle KA-05-KU-6218
+KA-05-KU-6218
+]]></system-out>
+  </testcase>
+  <testcase name="test_CarParkedWithDifferentColour" classname="UnitTests.GetSlotNumberFromColourTest" time="0.001">
+    <system-out><![CDATA[Slots Created with size 10
+Parked  Vehicle KA-05-KU-6218
+]]></system-out>
+  </testcase>
+  <testcase name="test_SlotNotInitialized" classname="UnitTests.GetSlotNumberFromColourTest" time="0.0"/>
+</testsuite>

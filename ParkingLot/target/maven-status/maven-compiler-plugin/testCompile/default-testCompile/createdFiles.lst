@@ -1,0 +1,6 @@
+UnitTests/GetSlotNumberFromColourTest.class
+UnitTests/StatusTest.class
+UnitTests/GetRegistrationNumberFromColourTest.class
+UnitTests/CarParkTest.class
+UnitTests/GetSlotNumberFromRegistrationNumberTest.class
+UnitTests/LeaveCarParkingTest.class

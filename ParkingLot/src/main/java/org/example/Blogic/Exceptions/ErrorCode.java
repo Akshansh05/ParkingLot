@@ -1,0 +1,14 @@
+package org.example.Blogic.Exceptions;
+
+public enum ErrorCode {
+    NO_FREE_SLOTS_AVAILABLE,
+    SLOT_NOT_FREE,
+    SLOT_ALREADY_EMPTY,
+    SLOTS_SIZE_EXCEEDED,
+    SLOT_NOT_FOUND,
+    NO_SUCH_VEHICLE_FOUND,
+    NO_VEHICLE_FOUND,
+    VEHICLE_ALREADY_PARKED,
+    BAD_REQUEST_EXCEPTION,
+    EMPTY_PARKING
+}
